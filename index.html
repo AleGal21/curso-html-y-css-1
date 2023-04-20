@@ -1,0 +1,135 @@
+<!-- Definir el tipo de document y la versión del mismo. -->
+<!DOCTYPE html>
+
+<!-- La eitqueta padre de todo el resto de etiquetas -->
+<html lang="en">
+
+    <!-- Contiene información relevante para los motores de busqueda y navegadores.  -->
+    <head>
+
+        <!-- Define el grupo de caracteres que se está utilizando -->
+        <meta charset="UTF-8">
+
+        <!-- Resuelve problemas de compatibilidad -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Viewport define el zoom inicial de la página -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Define el titulo -->
+        <title>flores</title>
+
+    </head>
+
+    <!-- Contiene toda las etiquetas que se renderizan en el navegador y que pueden tener o no interacción con el usuario. Ej.: semánticas, formularios, etc. -->
+    <body>
+
+        <!-- Etiquetas sin interacción
+        ============================================= -->
+       
+        <!-- Paragraph = parrafo -->
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, cumque harum expedita eius necessitatibus tenetur! Inventore esse ullam unde consectetur tenetur neque vero magnam! Inventore vero officia explicabo voluptatum ex!
+        </p>
+
+        <!-- Ordered list -->
+        <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+
+        <!-- Unordered list -->
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+
+        <!-- Image = Imagen -->
+
+        <!-- URL Absoluta -->
+        <img src="https://images.unsplash.com/photo-1680762424301-604a1697f698?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+
+        <!-- URL Relativa -->
+        <img src="./assets/flowers/flowers.avif" alt="Hermosas flores para decorar" width="300" height="auto" />
+
+        <!-- Responsable de generar divisiones y facilitar la maquetacion -->
+        <div>
+            <section>
+                <article>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium suscipit velit, laudantium animi nesciunt temporibus rerum id impedit porro eos beatae ab veritatis dolor sint nostrum, voluptatem qui illum? Laudantium!
+                    </p>
+
+                    <p>
+                        
+                    </p>
+
+                </article>
+            </section>
+        </div>
+
+        <!-- Etiquetas con interacción
+        ============================================= -->
+
+        <!-- Video tag -->
+        <video src="./assets/videos/molino-112957.mp4" type="video/mp4" width="400" autoplay loop muted></video>
+
+        <video width="400" autoplay loop muted>
+            <source src="./assets/videos/molino-112957.mp4" type="video/mp4" />
+        </video>
+        
+        <audio src="./assets/audio/prueba.mp3" controls></audio>
+
+        <p>
+            Para saber más, haz <a href="https://www.youtube.com/">click aquí</a>.
+        </p>
+
+        <!-- Responsable de generar hipervínculos. -->
+        <a href="https://www.youtube.com/" target="_blank" >Clickeame gil</a>
+
+        <button onclick="">
+            Pato
+        </button>
+
+        <!-- <etiqueta atributo="valor">
+            Contenido
+        </etiqueta> -->
+
+        <a href="./link-con-index/">link con index</a>
+        <a href="./link-sin-index/">link sin index</a>
+
+
+        <!-- Etiquetas semanticas = Todas aquellas etiquetas que tienen un significado especial para los motores de busqueda
+        ============================================= -->
+
+        <!-- Headings (titulos) 1 - 6, donde 1 es el más importante y 6 el menos. -->
+
+        <h1>Titulo principal</h1>
+        <h2>dos</h2>
+        <h3>tres</h3>
+        <h4>cuatro</h4>
+        <h5>cinco</h5>
+        <h6>seis</h6>
+
+        <!-- Sections - Se utiliza para separar secciones -->
+        <section id="main-section"></section>
+
+        <!-- TODO -->
+        <!-- Hablar de las etiquetas semanticas, su significado e importancia.
+            Header
+            Main
+            Nav
+            Section
+            Aside
+            Article
+            Footer
+            p
+        -->
+        <p>Probando git</p>
+
+    </body>
+
+</html>
